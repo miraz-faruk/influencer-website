@@ -176,7 +176,7 @@ span {
     margin: 0 119px 17px 0;
 }
 
-.button{
+.button {
     text-align: right;
 }
 
@@ -191,6 +191,43 @@ span {
 
 /* Main part style end */
 
+.future-product {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: flex;
+    margin: 0 165px 100px 165px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fp-section-info {
+    padding-left: 96px;
+}
+
+.fp-section-title {
+    font-size: 38px;
+    color: #0A0826;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.fp-section-description{
+    margin: 0;
+    font-size: 16px;
+    color: #6C6C6C;
+    padding-bottom: 16px;
+    padding-right: 100px;
+}
+
+.third-btn{
+    background: #E02C6D;
+    border-style: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 24px 10px 24px;
+}
+
+/* Future Product part end */
 
 
 /* Media Queries for Mobile*/
