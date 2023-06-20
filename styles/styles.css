@@ -132,11 +132,15 @@ nav ul li {
     border-radius: 5px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    padding-left: 14px;
+    /* padding: 17px 15px 16px 14px; */
 }
 
-.items img {
-    padding: 17px 15px 16px 0px;
+.item{
+    margin: 17px 15px 16px 14px;;
+}
+
+.item img{
+    width: 100%;
 }
 
 .item-name {
@@ -160,7 +164,6 @@ nav ul li {
     padding: 8px 8px 8px 0;
 }
 
-
 span {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -176,6 +179,10 @@ span {
 
 .item-description {
     margin: 0 119px 17px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
 }
 
 .button {
@@ -200,6 +207,10 @@ span {
     margin: 0 165px 100px 165px;
     justify-content: space-between;
     align-items: center;
+}
+
+.future-product img {
+    border-radius: 7px;
 }
 
 .fp-section-info {
@@ -265,7 +276,7 @@ span {
     gap: 16px;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
@@ -274,16 +285,51 @@ span {
 /* Media Queries for Mobile*/
 @media screen and (max-width: 577px) {
 
-    /* Responsive Footer start */
-    .footer-info{
+    /* Responsive main section start */
+    .main {
+        margin: 0 16px;
+    }
+
+    .section-title {
+        font-size: 16px;
+        margin: 0 0 20px 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    /* .items img {
+        padding: 17px 15px 16px 0px;
+    } */
+
+    .item-description {
+        margin: 0 119px 27px 0;
+    }
+
+
+    /* Responsive main section end */
+
+
+    /* Responsive Future Product section start */
+
+    /* Responsive Future Product section end */
+
+    /* Responsive Footer section start */
+    .footer-info {
         padding: 50px 68px;
     }
-    .footer-section-title{
+
+    .footer-section-title {
         font-size: 16px;
     }
-    .footer-section-description{
+
+    .footer-section-description {
         font-size: 12px;
         padding: 0 5px 10px 5px;
     }
-    /* Responsive Footer end */
+
+    /* Responsive Footer section end */
 }
