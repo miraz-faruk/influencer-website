@@ -132,14 +132,14 @@ nav ul li {
     border-radius: 5px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    /* padding: 17px 15px 16px 14px; */
 }
 
-.item{
-    margin: 17px 15px 16px 14px;;
+.item {
+    margin: 17px 15px 16px 14px;
+    ;
 }
 
-.item img{
+.item img {
     width: 100%;
 }
 
@@ -164,17 +164,17 @@ nav ul li {
     padding: 8px 8px 8px 0;
 }
 
+.fa-star,
+.fa-star-half-stroke {
+    color: #FB8200;
+}
+
 span {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #5E6366;
     padding: 5px 13px 5px 0;
-}
-
-.fa-star,
-.fa-star-half-stroke {
-    color: #FB8200;
 }
 
 .item-description {
@@ -203,18 +203,18 @@ span {
 .future-product {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    display: flex;
     margin: 0 165px 100px 165px;
+}
+
+.content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 96px;
 }
 
 .future-product img {
     border-radius: 7px;
-}
-
-.fp-section-info {
-    padding-left: 96px;
 }
 
 .fp-section-title {
@@ -284,7 +284,9 @@ span {
 
 /* Media Queries for Mobile*/
 @media screen and (max-width: 577px) {
+    /* Responsive Logo section start */
 
+    /* Responsive Logo section end */
     /* Responsive main section start */
     .main {
         margin: 0 16px;
@@ -301,19 +303,45 @@ span {
         gap: 15px;
     }
 
-    /* .items img {
-        padding: 17px 15px 16px 0px;
-    } */
-
     .item-description {
         margin: 0 119px 27px 0;
     }
 
-
     /* Responsive main section end */
 
-
     /* Responsive Future Product section start */
+    .future-product {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content img {
+        width: 299px;
+        height: 188px;
+        margin: 30px 31px 50px 31px;
+    }
+
+    .fp-section-info {
+        padding: 0;
+        text-align: center;
+    }
+
+    .fp-section-title {
+        font-size: 24px;
+        padding: 50px 20px 15px 29px;
+    }
+
+    .fp-section-description {
+        width: auto;
+        height: 88px;
+        padding: 0 16px 65px 15px;
+    }
 
     /* Responsive Future Product section end */
 
