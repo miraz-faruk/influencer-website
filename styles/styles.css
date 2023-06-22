@@ -46,15 +46,18 @@ nav ul li {
 /* Navigation part end */
 
 .header-main {
+    margin: 50px 132px 69px 120px;
+}
+
+.header-container {
     display: flex;
     color: #3A3A3A;
-    margin: 50px 132px 69px 120px;
     justify-content: space-between;
     align-items: center;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: right;
-    height: 475px;
+    background-size: contain;
 }
 
 .header-info {
@@ -284,7 +287,11 @@ span {
 
 /* Media Queries for Mobile*/
 @media screen and (max-width: 577px) {
+    /* Responsive header-main section start */
+
+    /* Responsive header-main section end */
     /* Responsive Logo section start */
+
 
     /* Responsive Logo section end */
     /* Responsive main section start */
